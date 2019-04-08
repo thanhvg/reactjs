@@ -9,4 +9,5 @@
 ;;
 ;;; License: GPLv3
 
-(configuration-layer/declare-layers '(javascript node prettier tern web-beautify))
+(configuration-layer/declare-layers '(node prettier web-beautify))
+(configuration-layer/declare-shadow-relation  'reactjs 'react)

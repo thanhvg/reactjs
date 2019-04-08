@@ -14,6 +14,7 @@
   - [[#auto-complete-and-documentation-tern][Auto-complete and documentation (tern)]]
 
 * Description
+Forked from spacemacs dev branch, to meet my needs, dropped tern backend
 ES6 and JSX ready configuration layer for React
 It will automatically recognize =.jsx= files and files with =react= imported.
 

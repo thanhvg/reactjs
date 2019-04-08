@@ -10,3 +10,6 @@
 ;;; License: GPLv3
 
 (spacemacs|define-jump-handlers rjsx-mode)
+
+(defvar reactjs-backend 'dumb
+  "The backend to use for IDE features. Possible values are `dumb' and `lsp'.")
